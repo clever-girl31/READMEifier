@@ -1509,7 +1509,7 @@ inquirer
 ])
 .then((answers) => {
     const indexContent = createReadMe(answers);
-    fs.writeFile('./output/READMEEM.md', indexContent, (err) =>
+    fs.writeFile('./output/README.md', indexContent, (err) =>
     err ? console.log(err) : console.log('ReadME successfully generated'))
   });
 
